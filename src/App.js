@@ -14,6 +14,7 @@ import CounterOne from './components/CounterOne';
 import CounterTwo from './components/CounterTwo';
 import CounterThree from './components/CounterThree';
 import DataFetchingOne from './components/DataFetchingOne';
+import DataFetchingTwo from './components/DataFetchingTwo';
 
 export const UserContext = React.createContext()
 export const ChannelContext = React.createContext()
@@ -22,6 +23,7 @@ function App() {
   return (
     <div className="App">
       <DataFetchingOne />
+      <DataFetchingTwo />
       {/* <CounterThree /> */}
       {/* <CounterTwo /> */}
       {/* <CounterOne /> */}
